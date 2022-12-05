@@ -1,6 +1,6 @@
 {
   "name": "@hcs-demo/remixapp-lerna",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
@@ -8,13 +8,13 @@
     "test": "echo passed!"
   },
   "dependencies": {
+    "@hcs-demo/footer-lerna": "workspace:*",
+    "@hcs-demo/header-lerna": "workspace:*",
     "@remix-run/node": "^1.5.1",
     "@remix-run/react": "^1.5.1",
     "@remix-run/serve": "^1.5.1",
     "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "@hcs-demo/header-lerna": "workspace:*",
-    "@hcs-demo/footer-lerna": "workspace:*"
+    "react-dom": "18.1.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.5.1",

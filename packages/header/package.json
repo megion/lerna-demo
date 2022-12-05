@@ -1,12 +1,13 @@
 {
   "name": "@hcs-demo/header-lerna",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "scripts": {
     "build": "rimraf dist && rollup --config",
     "test": "jest"
   },
   "dependencies": {
+    "@hcs-demo/footer-lerna": "workspace:*",
     "@testing-library/react": "13.3.0",
     "@types/jest": "^27.0.3",
     "@types/react": "^17.0.14",
@@ -17,8 +18,7 @@
     "rollup-plugin-typescript2": "^0.31.1",
     "ts-jest": "^27.1.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.2",
-    "@hcs-demo/footer-lerna": "workspace:*"
+    "typescript": "^4.5.2"
   },
   "devDependencies": {
     "rimraf": "^3.0.2"
