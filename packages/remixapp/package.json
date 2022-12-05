@@ -1,7 +1,6 @@
 {
-  "name": "remixapp",
-  "private": true,
-  "sideEffects": false,
+  "name": "@hcs-demo/remixapp-lerna",
+  "version": "1.0.0",
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
@@ -14,8 +13,8 @@
     "@remix-run/serve": "^1.5.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "header": "*",
-    "footer": "*"
+    "@hcs-demo/header-lerna": "workspace:*",
+    "@hcs-demo/footer-lerna": "workspace:*"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.5.1",

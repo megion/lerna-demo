@@ -1,6 +1,6 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "@hcs-demo/root-lerna",
   "devDependencies": {
+    "lerna": "^6.1.0"
   }
 }

@@ -1,0 +1,4 @@
+packages:
+  - './packages/footer'
+  - './packages/header'
+  - './packages/remixapp'
